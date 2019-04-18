@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel|Righteous');
+
+body {
+    font-family: 'Cinzel', serif;
+}
+
+h1,h2,h2 {
+    font-family: 'Righteous', cursive;
+}
+
+.jumbotron {
+    background-image: url('../img/mountain.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#special {
+    font-size: 3em;
+    color: teal;
+}
+
+@media (min-width: 800px) {
+    #special {
+        font-size: 5em;
+        color: purple;
+        border: 1px solid black;
+    }
+}
